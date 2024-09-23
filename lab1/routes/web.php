@@ -11,3 +11,4 @@ Route::get('/', function () {
 Route::get('/lab1', [LabController::class, 'index']);
 Route::get('/about', [LabController::class, 'about'])->middleware('check.age');
 Route::get('/contact', [LabController::class, 'contact']);
+Route::get('/hobbies', [LabController::class, 'hobbies']);
