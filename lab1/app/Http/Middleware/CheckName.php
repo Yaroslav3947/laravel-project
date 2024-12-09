@@ -14,5 +14,6 @@ class CheckName
         }
 
         return $next($request);
+        // test
     }
 }
